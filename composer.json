@@ -1,0 +1,22 @@
+{
+  "name": "yiiauth/spotify",
+  "description": "Spotify OAuth2 for yii2-authclient",
+  "keywords": ["yii2", "authclient", "oauth", "spotify"],
+  "homepage": "http://github.com/yiiauth/spotify",
+  "require": {
+    "php": "^7.0",
+    "yiisoft/yii2-authclient": "~2.1"
+  },
+  "license": "BSD-2.0",
+  "authors": [
+    {
+      "name": "Dmitriy Kuts (ExileeD)",
+      "email": "me@exileed.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "yiiauth\\spotify\\": "src"
+    }
+  }
+}
